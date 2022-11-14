@@ -1,0 +1,1 @@
+{"schemaVersion":"1","maxRetries":2,"timeoutMs":100,"latencyBudgetMs":300,"fallback":"cached"}
