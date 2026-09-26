@@ -1,0 +1,1 @@
+{"schemaVersion":"1","complete":true,"scenarios":[{"id":"dependency-a","attempts":[{"outcome":"timeout","latencyMs":100},{"outcome":"unavailable","latencyMs":20},{"outcome":"malformed","latencyMs":20}],"observed":{"attemptCount":3,"fallback":"cached","operatorSignalled":true,"totalLatencyMs":140}}]}

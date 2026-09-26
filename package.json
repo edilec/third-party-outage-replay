@@ -1,0 +1,19 @@
+{
+  "name": "third-party-outage-replay",
+  "version": "0.1.0",
+  "description": "Replay dependency failures to verify timeout, fallback and operator paths.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "node --check src/index.mjs && node --check src/json-keys.mjs && node --check src/cli.mjs && node --check bin/third-party-outage-replay.mjs",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edilec/third-party-outage-replay"
+  }
+}
